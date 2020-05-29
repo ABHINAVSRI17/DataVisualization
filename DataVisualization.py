@@ -52,6 +52,22 @@ print(d.values())
 print(d['student1'])
 print(d.get('student2'))
 # swapping the values
+# 1 USING THIRD VARIABLE
+a = 5
+b = 6
+s = a
+a = b
+b = s
+print(a, b)
+# 2 WITHOUT USING THIRD VARIABLE
+a = 5
+b = 6
+a = a+b  # a=5+6=11
+b = a-b  # b=11-6=5
+a = a-b  # a=11-5=6
+print(a, b)
+# 3 BY USING XOR GATE LOGIC OPERATION
+
 
 
 
