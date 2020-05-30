@@ -68,10 +68,17 @@ a = a-b  # a=11-5=6
 print(a, b)
 # 3 BY USING XOR GATE LOGIC OPERATION
 
-
-
-
-
+import math
+x = math.sqrt(16)  # square root
+print(x)
+y = math.pow(2,5)  # power
+print(y)
+z = math.ceil(4.6)  # round-off of a number
+print(z)
+u=math.pi           # value of pi
+print(u)
+v=math.e            # value of exponential
+print(v)
 
 
 
