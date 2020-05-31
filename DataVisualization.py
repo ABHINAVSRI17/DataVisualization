@@ -71,14 +71,26 @@ print(a, b)
 import math
 x = math.sqrt(16)  # square root
 print(x)
-y = math.pow(2,5)  # power
+y = math.pow(2, 5)  # power
 print(y)
 z = math.ceil(4.6)  # round-off of a number
 print(z)
-u=math.pi           # value of pi
+u = math.pi           # value of pi
 print(u)
-v=math.e            # value of exponential
+v = math.e            # value of exponential
 print(v)
+# we can also use short form of word math as m
+import math as m
+b = m.cos(0)
+print(b)
+# if we want to import only a particular operations
+from math import pow
+g = pow(2, 5)
+print(g)
+
+
+
+
 
 
 
